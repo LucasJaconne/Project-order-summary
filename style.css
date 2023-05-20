@@ -17,10 +17,11 @@
 
     p {
         font-family: 'Red Hat Display', sans-serif;
+        color:#1F2F56;
     }
     
     body{
-        background-color: #e3ecff;
+        background-color: #E0E8FF;
         background-image: url(images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-position: top center;
@@ -41,11 +42,11 @@
     }
 
     #bloco {
-        background-color: var(--Desaturatedblue);
+        background-color: #F5F7FF;
         border-radius: 20px;
         box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.116);
-        min-width: 300px;
-        max-width: 1000px;
+        min-width: 375px;
+        max-width: 1440px;
         
     }
 
@@ -57,6 +58,7 @@
 
     #container1 h2 {
         text-align: center;
+        color: #1F2F56;
         font-family: 'Red Hat Display', sans-serif;
         font-weight: bolder;
         font-size: 28px;
@@ -69,7 +71,7 @@
     }
 
     #container3 {
-        background-color: #ebeef863;
+        background-color: #e0e8ff69;
         margin: 0px 40px;
         border-radius: 10px;
         display: flex;   
@@ -107,20 +109,20 @@
     }
 
     #container4 p a {
-        background-color: #382AE1;
+        background-color: #3829E0;
         color: white;
         font-weight: bold;
-        padding: 10px 110px;
+        padding: 15px 110px;
         border-radius: 10px;
         text-decoration: none;
-        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.26);
+        box-shadow: 0px 15px 14px rgba(0, 0, 0, 0.192);
     }
     
     #container4 #a2 {
         text-decoration: none;
         font-family: 'Red Hat Display', sans-serif;
         font-weight: bold;
-        color: grey;
+        color: #1F2F56;
         display: block;
         margin-bottom: 20px;
         padding-top: 20px;
