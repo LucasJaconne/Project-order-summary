@@ -3,6 +3,7 @@
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
     :root {
@@ -45,14 +46,14 @@
         background-color: #F5F7FF;
         border-radius: 20px;
         box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.116);
-        min-width: 375px;
-        max-width: 1440px;
+        max-width: 416px;
         
     }
 
  
 
     #container1 img {
+        width: 100%;
         border-radius: 20px 20px 0px 0px;
     }
 
@@ -92,11 +93,20 @@
 
      #link a {
         font-family: 'Red Hat Display', sans-serif;
-        font-size: 14px;
+        font-size: 90%;
         color: rgb(44, 0, 204);
         font-weight: bold;
         justify-content: end;
-        padding-left: 100px;
+        padding-left: 80px;
+    }
+
+    #link a:hover {
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 90%;
+        color: hsl(223, 47%, 23%);
+        font-weight: bold;
+        justify-content: end;
+        padding-left: 80px;
     }
 
     #container4 {
@@ -112,20 +122,22 @@
         background-color: #3829E0;
         color: white;
         font-weight: bold;
-        padding: 15px 110px;
+        padding: 15px 90px;
         border-radius: 10px;
         text-decoration: none;
         box-shadow: 0px 15px 14px rgba(0, 0, 0, 0.192);
     }
     
-    #container4 #a2 {
+    #container5 #a2 {
         text-decoration: none;
         font-family: 'Red Hat Display', sans-serif;
         font-weight: bold;
         color: #1F2F56;
         display: block;
         margin-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        
     }
 
     
