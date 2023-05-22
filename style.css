@@ -13,9 +13,6 @@
         --font1: 'Red Hat Display';
     }
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
     p {
         font-family: 'Red Hat Display', sans-serif;
         color:#1F2F56;
